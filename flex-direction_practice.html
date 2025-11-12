@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="flex-directionの練習" content="width=device-width, initial-scale=1.0">
+    <title>jflex-directionの練習</title>
+    <style>
+        body {
+            font-family: "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic ProN",
+                "メイリオ", Meiryo, sans-serif;
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            gap: 20px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+
+        }
+
+        .left {
+            width: 120px;
+            /* 固定宽度 */
+            text-align: center;
+        }
+
+        .left p {
+            font-size: 30px;
+            font-weight: bold;
+            line-height: 1.5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .section,
+        .section-rignt {
+            width: 650px;
+            height: 120px;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            background-color: floralwhite;
+
+        }
+         .section-rignt{
+            width: 300px;
+            height: 400px;
+         }
+
+        .box1,
+        .box2,
+        .box3 {
+            border-radius: 5px;
+            width: 80px;
+            height: 80px;
+            background-color: antiquewhite;
+        }
+
+        .box2 {
+            background-color: bisque;
+
+        }
+
+        .box3 {
+            background-color: cadetblue;
+
+        }
+
+        .main-left,
+        .main-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+.main-right{
+
+            flex-direction: row;
+}
+
+        .row,
+        .row-reverse,
+        .column-reverse,
+        .column {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 100px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+            gap: 10px;
+        }
+ .column-reverse,
+        .column{
+            width: 100px;
+            height: 300px;
+        }
+        .column-reverse{
+            flex-direction: column-reverse;
+        }
+        .column{
+            flex-direction: column;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .row-reverse {
+            display: flex;
+            flex-direction: row-reverse;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="main">
+         <h1>flex-direction | レイアウト練習</h1>
+        <div class="main-left">
+
+            <div iv class="section">
+                <div class="left">
+                    <p>row</p>
+                </div>
+                <div class="row">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                </div>
+                </div>
+
+
+            <div class="section">
+                <div class="left">
+                    <p>row-reverse</p>
+                </div>
+                <div class="row-reverse">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+        </div>
+
+        <div class="main-right">
+            <div class="section-rignt">
+                <div class="left">
+                    <p>column</p>
+                </div>
+                <div class="column">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                </div>
+
+            </div>
+            <div class="section-rignt">
+                <div class="left">
+                    <p>column-reverse</p>
+                </div>
+                <div class="column-reverse">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+                    <div class="box3"></div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </main>
+
+</body>
+
+</html>
