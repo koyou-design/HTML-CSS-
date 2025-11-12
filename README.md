@@ -1,7 +1,7 @@
 # HTML・CSS 練習リポジトリ
 
 <h2>CSS・flexboxの練習</h2>
-Flex-direction Practice 👉https://koyou-design.github.io/HTML-CSS-/flex-direction_practice.html<br>
+<u>Flex-direction</u> Practice 👉https://koyou-design.github.io/HTML-CSS-/flex-direction_practice.html<br>
 <strong>Flex-direction</strong> Practice 👉https://koyou-design.github.io/HTML-CSS-/flex-direction_practice.html<br>
 <strong>Justify-content</strong> Practice 👉https://koyou-design.github.io/HTML-CSS-/justify-content/justify-content_practice.html<br>
 
