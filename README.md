@@ -8,7 +8,7 @@
 <strong>Border</strong> Practice 👉 https://koyou-design.github.io/HTML-CSS-/border_practice.html<br>
 <strong>Box-shadow</strong> Practice 👉https://koyou-design.github.io/HTML-CSS-/box-shadow_practice.html<br>
 <strong>nth-child</strong> Practice 👉https://koyou-design.github.io/HTML-CSS-/nth-child_practice.html<br>
-[box-shadow Practice](https://koyou-design.github.io/HTML-CSS-/box-shadow_practice.html)
+
 
 
 
