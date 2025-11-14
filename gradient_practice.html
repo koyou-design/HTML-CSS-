@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Gradientの練習" content="width=device-width, initial-scale=1.0">
+    <title>Gradientの練習</title>
+    <style>
+        body {
+            font-family: "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic ProN",
+                "メイリオ", Meiryo, sans-serif;
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            gap: 20px;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+        .left {
+            width: 350px;
+            /* 固定宽度 */
+            text-align: left;
+
+        }
+
+        .left p {
+            font-size: 17px;
+            font-weight: bold;
+            /* line-height: 1.5; */
+            margin: 0;
+            display: flex;
+            text-align: left;
+
+
+        }
+
+        .section {
+            width: 850px;
+            height: 200px;
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            background-color: floralwhite;
+
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4,
+        .box5,
+        .box6,
+        .box7 {
+            border-radius: 5px;
+            width: 150px;
+            height: 120px;
+            background-color: antiquewhite;
+        }
+
+        .box1 {
+
+            background: linear-gradient(135deg, #FDF3F5, #B5D1E2);
+
+        }
+
+        .box2 {
+            background: linear-gradient(-135deg, #FDF3F5, #B5D1E2);
+        }
+
+        .box3 {
+            background: radial-gradient(circle, #FDF3F5, #B5D1E2);
+        }
+
+        .box4 {
+            background: radial-gradient(ellipse, #FDF3F5, #B5D1E2);
+        }
+
+        .box5 {
+            background: conic-gradient(#FDF3F5, #B5D1E2, #FDF3F5);
+            ;
+        }
+
+        .box6 {
+            background: conic-gradient(from 90deg,
+                    #FDF3F5,
+                    #B5D1E2,
+                    #FDF3F5);
+        }
+
+        .box7 {
+            background:
+                radial-gradient(circle at 30% 20%, rgba(255, 200, 150, 0.9), transparent 60%),
+                radial-gradient(circle at 70% 60%, rgba(255, 100, 50, 0.8), transparent 70%),
+                radial-gradient(circle at 50% 80%, rgba(255, 160, 100, 0.7), transparent 60%),
+                #ffe8d9;
+        }
+
+        .linear-gradient,
+        .radial-gradient,
+        .conic-gradient {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 400px;
+            height: 150px;
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+
+        .main-left,
+        .main-right {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="main">
+        <h1>Gradient | グラデーション</h1>
+
+        <div class="section">
+            <div class="left">
+                <p>background: linear-gradient<br>
+                    (135deg, #FDF3F5, #B5D1E2)<br><br>
+                    直線方向に変化<br>
+                    135度方向#FDF3F5から#B5D1E2まで</p>
+            </div>
+            <div class="linear-gradient">
+                <div class="box1"></div>
+                <div class="box2"></div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="left">
+                <p>background:radial-gradient<br>
+                    (ellipse, #FDF3F5, #B5D1E2)<br><br>
+                    放射状のグラデーション
+                </p>
+            </div>
+            <div class="radial-gradient">
+                <div class="box3"></div>
+                <div class="box4"></div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="left">
+                <p>background:conic-gradient<br>
+                    (ellipse, #FDF3F5, #B5D1E2)<br><br>
+                    円錐状のグラデーション
+                </p>
+            </div>
+            <div class="conic-gradient">
+                <div class="box5"></div>
+                <div class="box6"></div>
+
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="left">
+                <p>radial-gradient(circle at 30% 20%, rgba(255,200,150,0.9), transparent 60%)<br>
+                     左30%・上20%を中心とした円形のグラデーションで、<br>
+                    中心は橙色(透明度0.9)、外側に向かって60%の位置で透明になる。
+                </p>
+            </div>
+            <div class="conic-gradient">
+                <div class="box7"></div>
+
+
+            </div>
+        </div>
+
+
+    </main>
+
+</body>
+
+</html>
