@@ -10,6 +10,7 @@
 子要素セレクタ・<strong>Nth-child</strong> Practice 👉https://koyou-code.github.io/HTML-CSS-/nth-child_practice.html<br>
 グラデーション・<strong>Gradient</strong> Practice 👉https://koyou-code.github.io/HTML-CSS-/gradient_practice.html<br>
 文字装飾・<strong>text-decoration</strong> Practice 👉https://koyou-code.github.io/HTML-CSS-/text_practice.html<br>
+背景・<strong>background-size</strong> Practice 👉https://koyou-code.github.io/HTML-CSS-/background-size/background-size_practice.html
 
 
 
